@@ -18,4 +18,10 @@ Route::get('/', function () {
 Route::group(['prefix' => 'Admin', 'namespace' => 'Admin'], function(){
 	Route::get('Index/index', 'IndexController@index');
 	Route::get('Admin/index', 'AdminController@index');
+	Route::get('Article/index', 'ArticleController@index');
+	Route::get('Article/create', 'ArticleController@create');
+	Route::post('Article/store', 'ArticleController@store');
+	Route::get('Article/detail', 'ArticleController@detail');
+	Route::get('Article/edit', 'ArticleController@edit');
+	Route::post('Article/update', 'ArticleController@update');
 });

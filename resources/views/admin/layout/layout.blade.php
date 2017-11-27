@@ -20,6 +20,7 @@
 
     <!--Fonts-->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!--Beyond styles-->
     <link href="/assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/demo.min.css" rel="stylesheet" />
